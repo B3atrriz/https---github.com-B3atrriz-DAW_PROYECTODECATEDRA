@@ -5,6 +5,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background: rgba(250, 240, 230, 1);
+    background: white;
 }
 
 .container {
@@ -17,6 +18,7 @@ body {
 /* ===== NAVBAR ===== */
 .navbar {
      background-color: rgba(103,111,157,1);
+
     color: white;
     padding: 10px 0;
     position: fixed;
@@ -28,10 +30,10 @@ body {
     font-weight: bold;
     font-size: 24px;
     margin-left: 20px;
-    color: rgba(250, 240, 230, 1) !important; /* mismo color que antes */
+    color: rgba(250, 240, 230, 1) !important; 
 }
 .navbar-brand:hover {
-    color: #facc15 !important; /* efecto hover */
+    color: #facc15 !important; 
 }
 .navbar-nav .nav-link {
     color: rgba(250, 240, 230, 1) !important;
@@ -44,6 +46,29 @@ body {
     margin-left: 15px;
 }
 
+.navbar .logo {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.nav-links {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+.nav-links li {
+    display: inline-block;
+    margin-left: 15px;
+}
+.nav-links a {
+    color: rgba(250, 240, 230, 1);
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    color: #facc15;
+}
 
 
 /* ===== HERO ===== */
@@ -90,11 +115,10 @@ body {
 }
 
 .carousel-inner img {
-  height: 600px;         /* ajusta a tu gusto */
-  object-fit: cover;     /* recorta sin deformar */
-  border-radius: 15px;   /* esquinas redondeadas */
+  height: 600px;         
+  object-fit: cover;     
+  border-radius: 15px;   
 }
-
 
 /* ===== CARDS ===== */
 .cards {
