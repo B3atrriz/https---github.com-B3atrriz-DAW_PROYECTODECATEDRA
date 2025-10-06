@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playa El Tunco</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#inicio">Playa El Tunco</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#historia">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#atractivos">Atractivos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gastronomia">Gastronomía</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#hospedaje">Hospedaje</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ubicación">Ubicación</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- ===== INICIO ===== -->
+    <section id="inicio" class="hero">
+        <div class="overlay">
+            <h2>Bienvenidos a El Tunco</h2>
+            <p>Un paraíso salvadoreño de surf, atardeceres y vida nocturna</p>
+            <a href="#atractivos" target="_blank" class="btn btn-outline-secondary">Explorar mas</a>
+            
+        </div>
+    </section>
+
+    <!-- ===== HISTORIA ===== -->
+    <section id="historia" class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Texto -->
+      <div class="col-md-6">
+        <h2>Historia</h2>
+        <p>
+          El nombre de "El Tunco" proviene de una gran roca con forma de cerdo situada en la playa. 
+          Con el tiempo se ha convertido en uno de los destinos turísticos más visitados de El Salvador.
+        </p>
+        <p>
+          Además de su nombre, El Tunco es conocido por ser un destino emblemático para el surf en El Salvador.
+          Con sus rompientes famosas, su vida nocturna y su ambiente bohemio, se ha transformado en el corazón turístico de la costa.
+        </p>
+      </div>
+
+      <!-- Imagen -->
+      <div class="col-md-6">
+        <img src="img/piedraa.jpg" alt="Roca del Tunco" class="img-fluid rounded shadow">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- ===== ATRACTIVOS ===== -->
+    <section id="atractivos" class="section">
+        <h2>Atractivos turísticos</h2>
+             <!-- Carrusel -->
+               <div class="container" style="max-width: 1500px;">
+  <div id="carouselAtractivos" class="carousel slide mb-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/atractivossss.jpg" class="d-block w-100 rounded-3" alt="Atardecer en El Tunco">
+      </div>
+      <div class="carousel-item">
+        <img src="img/surfturiticos.jpg" class="d-block w-100 rounded-3" alt="Surf en El Tunco">
+      </div>
+      <div class="carousel-item">
+        <img src="img/vidamocturnaatractivos.jpg" class="d-block w-100 rounded-3" alt="Vida Nocturna">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAtractivos" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselAtractivos" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+               </div>
+
+  <!-- Tarjetas -->
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/tarjetasurf.jpg" class="card-img-top" alt="Surf">
+          <div class="card-body">
+            <h5 class="card-title">Surf</h5>
+            <p class="card-text">Olas reconocidas mundialmente que atraen a surfistas de todas partes.</p>
+            <a href="https://www.surfline.com" target="_blank" class="btn btn-primary">Más info</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/tarjetaatardecer.jpg" class="card-img-top" alt="Atardecer">
+          <div class="card-body">
+            <h5 class="card-title">Atardeceres</h5>
+            <p class="card-text">Disfruta los atardeceres más espectaculares de la costa salvadoreña.</p>
+            <a href="https://elsalvador.travel" target="_blank" class="btn btn-primary">Explorar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/vidaaaaaaaanoctur.webp" class="card-img-top" alt="Vida Nocturna">
+          <div class="card-body">
+            <h5 class="card-title">Vida Nocturna</h5>
+            <p class="card-text">Ambiente vibrante con bares, música en vivo y diversión.</p>
+            <a href="https://tripadvisor.com" target="_blank" class="btn btn-primary">Descubre más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+
+    <!-- ===== GASTRONOMÍA ===== -->
+    <section id="gastronomia" class="section">
+        <h2>Gastronomía</h2>
+        <p>El Tunco ofrece desde pupusas tradicionales hasta mariscos frescos y cócteles tropicales.</p>
+       <!-- Carrusel -->
+        <div class="container" style="max-width: 1500px;">
+
+  <div id="carouselGastro" class="carousel slide mb-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/tarjetacalamares.jpg" class="d-block w-100 rounded-3" alt="Calamares">
+      </div>
+      <div class="carousel-item">
+        <img src="img/camaronessssss.webp" class="d-block w-100 rounded-3" alt="Coctel de camarones">
+      </div>
+      <div class="carousel-item">
+        <img src="img/langostaatractivos.jpg" class="d-block w-100 rounded-3" alt="Langosta">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGastro" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselGastro" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+        </div>
+
+  <!-- Tarjetas -->
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/tarjetapupusas.webp" class="card-img-top" alt="Pupusas">
+          <div class="card-body">
+            <h5 class="card-title">Pupusas</h5>
+            <p class="card-text">El platillo típico más famoso de El Salvador.</p>
+            <a href="https://elsalvador.travel/gastronomia" target="_blank" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/tarjetacoctel.jpg" class="card-img-top" alt="Cóctel">
+          <div class="card-body">
+            <h5 class="card-title">Cócteles</h5>
+            <p class="card-text">Frescos y tropicales, ideales frente al mar.</p>
+            <a href="https://tripadvisor.com/restaurants" target="_blank" class="btn btn-primary">Explorar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/tarjetalangosta.jpg" class="card-img-top" alt="Mariscos">
+          <div class="card-body">
+            <h5 class="card-title">Mariscos</h5>
+            <p class="card-text">Langosta, camarones y más, frescos del Pacífico.</p>
+            <a href="https://elsalvador.travel/gastronomia" target="_blank" class="btn btn-primary">Probar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+
+    <!-- ===== HOSPEDAJE ===== -->
+    <section id="hospedaje" class="section">
+        <h2>Hospedaje</h2>
+
+        <!-- Carrusel -->
+          <div class="container" style="max-width: 1500px;">
+  <div id="carouselHospedaje" class="carousel slide mb-3" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/tarjertahotel.webp" class="d-block w-100 rounded-3" alt="Hotel Vista al Mar">
+      </div>
+      <div class="carousel-item">
+        <img src="img/hotelhospedaje.jpg" class="d-block w-100 rounded-3" alt="Hostales">
+      </div>
+      <div class="carousel-item">
+        <img src="img/airnbplayita.jpg" class="d-block w-100 rounded-3" alt="Airbnb">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselHospedaje" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselHospedaje" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+          </div>
+
+  <!-- Tarjetas -->
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/hotellllll.jpg" class="card-img-top" alt="Hotel Vista al Mar">
+          <div class="card-body">
+            <h5 class="card-title">Hotel Vista al Mar</h5>
+            <p class="card-text">Con todas las comodidades frente al océano.</p>
+            <a href="https://booking.com" target="_blank" class="btn btn-primary">Reservar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/tarjetahostal.jpeg" class="card-img-top" alt="Hostal">
+          <div class="card-body">
+            <h5 class="card-title">Hostales</h5>
+            <p class="card-text">Opciones económicas para mochileros y viajeros.</p>
+            <a href="https://hostelworld.com" target="_blank" class="btn btn-primary">Ver opciones</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/tarjetaairnb.webp" class="card-img-top" alt="Airbnb">
+          <div class="card-body">
+            <h5 class="card-title">Airbnb frente al mar</h5>
+            <p class="card-text">Casas y apartamentos con vista increíble al océano.</p>
+            <a href="https://airbnb.com" target="_blank" class="btn btn-primary">Explorar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <form id="form-contacto">
+            <input type="text" id="nombre" placeholder="Nombre" class="input">
+            <input type="email" id="correo" placeholder="Correo electrónico" class="input">
+            <textarea id="mensaje" placeholder="Escribe tu mensaje" class="input"></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+        <div id="msg-exito" class="mensaje-exito"> Mensaje enviado con éxito</div>
+    </section>
+
+    <section id="ubicación" class="section">
+
+    <!--==UBICACION===-->
+    <h2>Nuestra ubicación</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19257.0793665614!2d-89.39168863790539!3d13.49224260555309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7cd59f22c8da2b%3A0xc9cb9224ff2461d7!2sPlaya%20El%20Tunco!5e1!3m2!1ses!2ssv!4v1755476395197!5m2!1ses!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <p>&copy; 2025 Playa El Tunco  Desarrollado por grupo de estudiantes de la UDB </p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
