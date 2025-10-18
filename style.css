@@ -4,8 +4,7 @@
 body { 
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: rgba(250, 240, 230, 1);
-    background:white;
+    background: url("img/Diseño\ sin\ título.png");
 }
 
 .container {
@@ -164,7 +163,7 @@ body {
 .card-body {
   flex-grow: 1; 
 }
-
+}
 
 
 
@@ -191,4 +190,4 @@ body {
        padding: 20px 0;
      
 }
-}
+
