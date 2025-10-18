@@ -11,15 +11,12 @@ body {
   background: var(--color-fondo);
   color: #333;
   margin: 0;
-  padding: 0;
+  padding: 80px;
 }
 .navbar {
-     background-color: rgba(103,111,157,1);
-
+   background-color: rgba(103,111,157,1);
     color: white;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
     top: 0;
     z-index: 10
 }
@@ -73,6 +70,7 @@ header {
   text-align: center;
   padding: 2rem 1rem;
   border-bottom: 5px solid var(--color-secundario);
+  border-radius: 20px;
 }
 
 header h1 {
@@ -174,8 +172,9 @@ iframe, .tiktok-embed {
     display: inline-block;
     padding: 10px 20px;
     background:rgba(103,111,157,1) 0%;
-    color:white;
+    color: white;
     text-decoration: none;
+    border-color: #333;
     border-radius: 5px;
     margin-top: 10px;
 }
@@ -192,4 +191,5 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
   border-top: 5px solid var(--color-secundario);
+  border-radius: 20px;
 }

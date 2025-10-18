@@ -8,7 +8,6 @@ const fotos = [
   { src: "../img/Imagen7.jpg", desc: "" },
   { src: "../img/Imagen8.webp", desc: "" },
   { src: "../img/Imagen9.jpg", desc: "" },
- 
 ];
 
 $(document).ready(function () {
@@ -21,22 +20,6 @@ $(document).ready(function () {
       </div>
     `);
   });
-
-  // Mostrar sección según botón.
-  
-  $("nav button").click(function () {
-    const seccion = $(this).attr("id").replace("btn", "").toLowerCase();
-    $(".contenido").addClass("oculto").hide();
-    $("#" + seccion).fadeIn(500).removeClass("oculto");
-    localStorage.setItem("ultimaSeccion", seccion);
-  });
-
-  // Restaurar última vista
-  const ultima = localStorage.getItem("ultimaSeccion");
-  if (ultima) {
-    $(".contenido").addClass("oculto");
-    $("#" + ultima).removeClass("oculto");
-  }
 
   // Click en imagen → mostrar descripción
   $(".galeria").on("click", "img", function () {
