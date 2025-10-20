@@ -5,7 +5,7 @@ Este proyecto es una aplicación web para **mostrar y promover el turismo en Pla
 Cuenta con secciones informativas, lugares turísticos destacados y una interfaz moderna con interactividad desarrollada en **jQuery** y **JavaScript moderno**.  
 
 ## 🌐 Enlace al proyecto
- [Accede del sitio aquí]()
+ [Accede del sitio aquí](https://b3atrriz.github.io/https---github.com-B3atrriz-DAW_PROYECTODECATEDRA/)
 
 ##  Estructura del proyecto
 
