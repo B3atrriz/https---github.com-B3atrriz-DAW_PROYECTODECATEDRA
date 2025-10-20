@@ -1,16 +1,51 @@
-# React + Vite
+# 🌴 Proyecto DAW: Turismo Playa El Tunco
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Descripción
+Este proyecto es una aplicación web para **mostrar y promover el turismo en Playa El Tunco, El Salvador**.  
+Cuenta con secciones informativas, lugares turísticos destacados y una interfaz moderna con interactividad desarrollada en **jQuery** y **JavaScript moderno**.  
 
-Currently, two official plugins are available:
+## 🌐 Enlace al proyecto
+ [Accede del sitio aquí]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Estructura del proyecto
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Tecnologías utilizadas
+- **HTML5** → estructura de las páginas.  
+- **CSS3** → estilos, maquetación y diseño responsivo.  
+- **JavaScript ES6+** → interacción con el DOM.  
+- **jQuery** → manipulación del DOM y manejo de eventos.  
+- **JSON** → carga de datos dinámicos de lugares turísticos.  
+- **localStorage** → almacenamiento temporal en el navegador.  
+- **Hosting gratuito:** GitHub Pages.  
+- **Diseño UX/UI:** Figma (mockups incluidos en PDF).  
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades principales
+- Menú de navegación funcional entre secciones.  
+- Sección **Turísticos** dinámica con datos en JSON y jQuery.  
+- Footer con **licencia Creative Commons CC BY 4.0**.  
+- Diseño limpio, moderno y completamente responsivo.  
+## ⚖️ Licencia
+Este proyecto está bajo la licencia  
+**[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**  
+Permite **compartir y adaptar** el contenido siempre que se otorgue crédito al autor.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🗂 Organización del proyecto
+- **Repositorio:** [GitHub - B3atrriz/DAW_PROYECTODECATEDRA](https://github.com/B3atrriz/DAW_PROYECTODECATEDRA)
+- **Gestión de tareas:** Trello / Notion ()
+- **Diseño UX/UI:** Figma
+
+## 📅 Cronograma de trabajo
+| Sprint | Actividad principal | Descripción |
+|--------|----------------------|--------------|
+| 1 | Maquetación | Creación de estructura HTML y diseño base CSS. |
+| 2 | Lógica JS | Implementación de funciones, DOM y eventos. |
+| 3 | jQuery y JSON | Carga dinámica de datos en sección Turísticos. |
+| 4 | Publicación | Pruebas finales y subida al hosting. |
+
+## 📚 Referencias
+- [Documentación jQuery](https://api.jquery.com/)  
+- [Creative Commons Licencias](https://creativecommons.org/licenses/by/4.0/)  
+- [MDN Web Docs - JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+

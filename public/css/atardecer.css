@@ -150,13 +150,27 @@ iframe, .tiktok-embed {
 }
 
 /* Footer */
-footer {
-  text-align: center;
-  background: var(--color-primario);
-  color: white;
-  padding: 1rem;
-  margin-top: 2rem;
-  border-top: 5px solid var(--color-secundario);
-  border-radius: 20px;
+.footer { 
+    background: rgba(103,111,157,1); 
+    color: white;                    
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer .cc-link {
+    color: #ffffff;           
+    text-decoration: underline; 
+    font-weight: 600;
+}
+
+.footer .cc-link:hover {
+    color: #ffd700;          
+}
+
+.footer .cc-icon img {
+    margin-top: 10px;
+    width: 60px;
+    height: auto;
 }
 
