@@ -221,21 +221,21 @@ body {
 
 /* ===== FOOTER ===== */
 .footer { 
-    background: rgba(103,111,157,1); /* tu color de fondo */
-    color: white;                    /* texto en blanco */
+    background: rgba(103,111,157,1); 
+    color: white;                    
     text-align: center;
     padding: 20px 0;
     font-family: 'Poppins', sans-serif;
 }
 
 .footer .cc-link {
-    color: #ffffff;           /* enlace en blanco para que combine */
-    text-decoration: underline; /* opcional, puedes quitarlo si quieres */
+    color: #ffffff;           
+    text-decoration: underline; 
     font-weight: 600;
 }
 
 .footer .cc-link:hover {
-    color: #ffd700;           /* color dorado al pasar el mouse, opcional */
+    color: #ffd700;           
 }
 
 .footer .cc-icon img {
