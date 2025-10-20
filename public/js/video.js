@@ -1,21 +1,21 @@
 const fotos = [
-  { src: "src/assets/img/Atardecer.jpg", desc: "Atardecer en la playa" },
-  { src: "src/assets/img/Roca.webp", desc: "Roca emblemática del Tunco" },
-  { src: "src/assets/img/Surf.webp", desc: "Surfistas disfrutando del mar" },
-  { src: "src/assets/img/VAerea.jpg", desc: "Vista aérea del Tunco" },
-  { src: "src/assets/img/calle2.jpeg", desc: "Calle principal" },
-  { src: "src/assets/img/tunco.webp", desc: "Sol y Arena" },
-  { src: "src/assets/img/amanecer.webp", desc: "Amanecer" },
-  { src: "src/assets/img/puestos.jpg", desc: "Ambiente relajado" },
-  { src: "src/assets/img/noche.jpg", desc: "Noche con luces y música" },
-  { src: "src/assets/img/surfcity.jpg", desc: "Atardecer Surf City" },
-  { src: "src/assets/img/noche2.jpg", desc: "Buena Vibra" },
-  { src: "src/assets/img/olas.jpg", desc: "Olas" },
+  { src: "../img/Atardecer.jpg", desc: "Atardecer en la playa" },
+  { src: "../img/Roca.webp", desc: "Roca emblemática del Tunco" },
+  { src: "../img/Surf.webp", desc: "Surfistas disfrutando del mar" },
+  { src: "../img/VAerea.jpg", desc: "Vista aérea del Tunco" },
+  { src: "../img/calle2.jpeg", desc: "Calle principal" },
+  { src: "../img/tunco.webp", desc: "Sol y Arena" },
+  { src: "../img/amanecer.webp", desc: "Amanecer" },
+  { src: "../img/puestos.jpg", desc: "Ambiente relajado" },
+  { src: "../img/noche.jpg", desc: "Noche con luces y música" },
+  { src: "../img/surfcity.jpg", desc: "Atardecer Surf City" },
+  { src: "../img/noche2.jpg", desc: "Buena Vibra" },
+  { src: "../img/olas.jpg", desc: "Olas" },
 ];
 
 $(document).ready(function () {
   // Cargar galería desde JSON
- $.getJSON("js/fotos.json", function(fotos) {
+  $.getJSON("js/fotos.json", function(fotos) {
   fotos.forEach(foto => {
     $("#contenedorFotos").append(`
       <div class="itemFoto">

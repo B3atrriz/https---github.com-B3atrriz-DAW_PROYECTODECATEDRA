@@ -73,7 +73,7 @@ body {
 /* ===== HERO ===== */
 .hero {
     height: 80vh;
-    background: url("src/assets/img/portadainc.jpg_large") center/cover no-repeat;
+    background: url("public/img/portadainc.jpg_large") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;

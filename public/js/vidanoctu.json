@@ -1,0 +1,14 @@
+[
+  { "src": "Atardecer.jpg", "desc": "Atardecer en la playa" },
+  { "src": "Roca.webp", "desc": "Roca emblemática del Tunco" },
+  { "src": "Surf.webp", "desc": "Surfistas disfrutando del mar" },
+  { "src": "VAerea.jpg", "desc": "Vista aérea del Tunco" },
+  { "src": "calle2.jpeg", "desc": "Calle principal" },
+  { "src": "tunco.webp", "desc": "Sol y Arena" },
+  { "src": "amanecer.webp", "desc": "Amanecer" },
+  { "src": "puestos.jpg", "desc": "Ambiente relajado" },
+  { "src": "noche.jpg", "desc": "Noche con luces y música" },
+  { "src": "surfcity.jpg", "desc": "Atardecer Surf City" },
+  { "src": "noche2.jpg", "desc": "Buena Vibra" },
+  { "src": "olas.jpg", "desc": "Olas" }
+]
